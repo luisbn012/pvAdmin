@@ -14,12 +14,14 @@ import { APP_ROUTES } from './app.routes';
 
 // MODULES
 import { PagesModule } from './pages/pages.module';
+import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
+    IncrementadorComponent,
   ],
   imports: [
     BrowserModule,
