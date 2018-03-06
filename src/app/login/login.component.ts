@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare function initPlugins();
 
 @Component({
   selector: 'app-login',
@@ -10,6 +11,9 @@ export class LoginComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+    initPlugins();
+
   }
 
 }

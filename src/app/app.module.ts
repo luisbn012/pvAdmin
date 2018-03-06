@@ -15,7 +15,7 @@ import { APP_ROUTES } from './app.routes';
 // MODULES
 import { PagesModule } from './pages/pages.module';
 import { IncrementadorComponent } from './components/incrementador/incrementador.component';
-
+import { ServiceModule } from './services/service.module'; // (SERVICES)
 
 @NgModule({
   declarations: [
@@ -27,6 +27,7 @@ import { IncrementadorComponent } from './components/incrementador/incrementador
     BrowserModule,
     APP_ROUTES,
     PagesModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
