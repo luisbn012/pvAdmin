@@ -15,6 +15,7 @@ import { PAGES_ROUTES } from './pages.routes';
 import { ChartsModule } from 'ng2-charts';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { AccountsSettingsComponent } from './accounts-settings/accounts-settings.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -25,7 +26,8 @@ import { AccountsSettingsComponent } from './accounts-settings/accounts-settings
         ProgressComponent,
         Graficas1Component,
         GraficoDonaComponent,
-        AccountsSettingsComponent
+        AccountsSettingsComponent,
+        RxjsComponent
     ],
     exports: [
         PagesComponent,
